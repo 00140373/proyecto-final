@@ -7,4 +7,37 @@ and open the template in the editor.
     Created on : Mar 19, 2018, 6:27:04 PM
     Author     : 00140373
 */
-
+#cabecera{
+    font-family: Calibri (Cuerpo);
+    font-size: 40px;
+    color:#117864;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display:inline;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Calibri (Cuerpo);
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 20px;
+    
+    }
+    #menu{
+        text-align: center;
+    } 
+    img{
+        border-radius: 20px;
+    } 
+    #cuerpo{
+        text-align: center;
+        font-family: Calibri (Cuerpo);
+        font-size: 28px;
+        color: red;
+    } 
+    #pie{
+        background: white;
+        text-align: center;
+        font-weight: bold;
+    }
