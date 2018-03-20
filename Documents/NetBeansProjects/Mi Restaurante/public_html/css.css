@@ -7,37 +7,66 @@ and open the template in the editor.
     Created on : Mar 19, 2018, 6:27:04 PM
     Author     : 00140373
 */
+
 #cabecera{
-    font-family: Calibri (Cuerpo);
-    font-size: 40px;
-    color:#117864;
-    text-align: center;
+    font-family: Rockwell Condensed;
+    font-size: 50px;
+    color: #5F6A6A;
+    text-align: center;   
 }
 ul li{
     list-style-type: none;
-    display:inline;
+    display: inline;
     font-size: 24px;
     font-weight: bold;
-    font-family: Calibri (Cuerpo);
-    background: #f0f0f0;
+    font-family: Rockwell;
+    background: #424949;
+    color: #E67E22;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 100px;
+}
+#Menu{
+    text-align: center;
+}
+img{
+    border-radius: 100px;
     
-    }
-    #menu{
-        text-align: center;
-    } 
-    img{
-        border-radius: 20px;
-    } 
-    #cuerpo{
-        text-align: center;
-        font-family: Calibri (Cuerpo);
-        font-size: 28px;
-        color: red;
-    } 
-    #pie{
-        background: white;
-        text-align: center;
-        font-weight: bold;
-    }
+}
+#cuerpo{
+    text-align: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: #1C2833;
+}
+#pie{
+    background: #424949;
+    text-align: center;
+    font-size: 24px;
+    color:#E67E22;
+}
+form{
+    margin: 0 auto;
+    width: 700px;
+    background: #5F6A6A;
+    padding: 5px;
+    border-radius: 10px;
+}
+hi{
+    text-align: center;
+}
+form div{
+    margin-bottom: 5px;
+}
+label{
+    font-family: Rockwell;
+    width: 100px;
+    text-align: right;
+    display: inline;
+}
+input{
+    width: 200px;
+}
+textArea{
+    width: 400px;
+    vertical-align: middle;
+}
